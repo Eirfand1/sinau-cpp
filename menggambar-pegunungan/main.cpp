@@ -27,7 +27,7 @@ int main(){
 	int N;
 
 	cin >> N;
-	
+
 	vector<string> mountain = draw_mountain(N); 
 
 	for (const string& line : mountain) {
